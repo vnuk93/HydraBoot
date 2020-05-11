@@ -1,0 +1,33 @@
+modelVersion: '1.0'
+
+services:
+    HydraBoot:
+        name: HydraBoot
+        description: Servidor de configuración central
+        packages: org.hydraframework.boot
+        version: 1.0
+        relativePath : ''
+        config: 
+            pre: 
+                port: 1
+                properties: 0
+            pro: 
+                port: 2
+                properties: 0
+        cloud:
+            runDocker: http
+    HydraBingo:
+        name: HydraBingo
+        description: Servicio de registro / descubrimiento
+        packages: org.hydraframework.bingo
+        version: 1.0
+        relativePath : ''
+        config: 
+            pre: 
+                port: 3
+                properties: 0
+            pro: 
+                port: 4
+                properties: 0
+        cloud:
+            runDocker: http
