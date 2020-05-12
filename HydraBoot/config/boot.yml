@@ -1,7 +1,7 @@
 modelVersion: '1.0'
 
 services:
-    HydraBoot:
+    hydraboot:
         name: HydraBoot
         description: Servidor de configuración central
         packages: org.hydraframework.boot

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  hydraboot:
+    build: .
+    image: hydraboot:1.0
+    ports:
+      - 1000:1000
+    
+    volumes:
+        - "./:/usr/src/app/"
