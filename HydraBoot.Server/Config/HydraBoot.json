@@ -1,0 +1,11 @@
+{
+  "modelVersion": "1.0",
+
+  "name": "HydraBoot",
+  "description": "Servidor de configuración central",
+  "packages": "org.hydraframework.boot",
+  "version": "1.0.0-20200528",
+  "port": 1000,
+  "relativePath": "",
+  "group": "Lobby"
+}

@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HydraBoot", "HydraBoot\HydraBoot.pyproj", "{AA6C7AFB-F920-4436-85C4-FA5D5DF34717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBoot.Server", "HydraBoot.Server\HydraBoot.Server.csproj", "{391477D8-D5C9-4A4F-A5B5-7BE93EB8E40F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBoot.Server", "HydraBoot.Server\HydraBoot.Server.csproj", "{C9B09D06-AE6E-4741-BF0B-77D2D900066E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBoot.Client", "HydraBoot.Client\HydraBoot.Client.csproj", "{DDF0C1D8-632A-482F-BB1A-051EC131396D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBoot.Client.Test", "HydraBoot.Client.Test\HydraBoot.Client.Test.csproj", "{EC7E50FC-6023-4659-B010-C7FC4E0287CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{AA6C7AFB-F920-4436-85C4-FA5D5DF34717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6C7AFB-F920-4436-85C4-FA5D5DF34717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6C7AFB-F920-4436-85C4-FA5D5DF34717}.Release|Any CPU.Build.0 = Release|Any CPU
-		{391477D8-D5C9-4A4F-A5B5-7BE93EB8E40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{391477D8-D5C9-4A4F-A5B5-7BE93EB8E40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{391477D8-D5C9-4A4F-A5B5-7BE93EB8E40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{391477D8-D5C9-4A4F-A5B5-7BE93EB8E40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B09D06-AE6E-4741-BF0B-77D2D900066E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B09D06-AE6E-4741-BF0B-77D2D900066E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B09D06-AE6E-4741-BF0B-77D2D900066E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B09D06-AE6E-4741-BF0B-77D2D900066E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF0C1D8-632A-482F-BB1A-051EC131396D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF0C1D8-632A-482F-BB1A-051EC131396D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF0C1D8-632A-482F-BB1A-051EC131396D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF0C1D8-632A-482F-BB1A-051EC131396D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7E50FC-6023-4659-B010-C7FC4E0287CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7E50FC-6023-4659-B010-C7FC4E0287CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7E50FC-6023-4659-B010-C7FC4E0287CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7E50FC-6023-4659-B010-C7FC4E0287CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

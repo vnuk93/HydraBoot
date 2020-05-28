@@ -1,14 +1,24 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace HydraBoot.Server
 {
     public class MainCore
     {
-        public MainCore()
+        public Core.Models.MBoot GetConfig(string configName)
         {
-            throw new System.NotImplementedException();
+            HydraBoot.Server.Core.Models.MBoot _out;
+            try { 
+                _out = JsonConvert.DeserializeObject<HydraBoot.Server.Core.Models.MBoot>(File.ReadAllText("./config/" + configName + ".json"));
+            }
+            catch
+            {
+                return null;
+            }
+            return _out;  
         }
     }
 }
