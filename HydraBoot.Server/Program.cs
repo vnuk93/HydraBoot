@@ -16,16 +16,16 @@ namespace HydraBoot.Server
             Grpc.Core.Server server = new Grpc.Core.Server
             {
                 Services = { SrvBoot.BindService(new HydraBootController()) }, //Bindea los metodos del codigo "Impl" con los servicio generado por proto (En este caso con el service Greeter de proto)
-                Ports = { new ServerPort("localhost", config.port, ServerCredentials.Insecure) } //asignacion de direccion, puerto y seguridad
+                Ports = { new ServerPort("0.0.0.0", config.port, ServerCredentials.Insecure) } //asignacion de direccion, puerto y seguridad
             };
             server.Start();
 
             Console.WriteLine("> HydraBoot server listening on port " + config.port);
-            Console.ReadKey();
+            Console.Read();
 
             server.ShutdownAsync().Wait();
 
-
+            
 
         }
     }

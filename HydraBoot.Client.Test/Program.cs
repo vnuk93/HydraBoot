@@ -9,7 +9,7 @@ namespace HydraBoot.Client.Test
         {
             HydraBootClient _HydraBoot = new HydraBootClient("localhost", "1000");
             var salida = _HydraBoot.Get("HydraBoot");
-            Console.WriteLine("HydraBoot Client Test");
+            Console.WriteLine("HydraBoot Client Test " + salida.Description);
             Console.ReadLine();
         }
     }

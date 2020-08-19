@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hydraboot.server:
+    image: ${DOCKER_REGISTRY-}hydrabootserver
+    build:
+      context: .
+      dockerfile: HydraBoot.Server/Dockerfile
+    ports:
+      - "1000:1000"

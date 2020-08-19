@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HydraBoot.Server": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

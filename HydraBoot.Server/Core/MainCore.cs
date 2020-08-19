@@ -12,7 +12,7 @@ namespace HydraBoot.Server
         {
             HydraBoot.Server.Core.Models.MBoot _out;
             try { 
-                _out = JsonConvert.DeserializeObject<HydraBoot.Server.Core.Models.MBoot>(File.ReadAllText("./config/" + configName + ".json"));
+                _out = JsonConvert.DeserializeObject<HydraBoot.Server.Core.Models.MBoot>(File.ReadAllText("./Config/" + configName + ".json"));
             }
             catch
             {
